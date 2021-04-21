@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./style.css?v=1" />
+  <title>Juego | Piedra, papel o tijera</title>
+  <link rel="icon" href="./assets/tijeras.png" type="image/png" />
+</head>
+
+<body>
+  <section class="principal">
+    <div class="puntajes">
+      <div class="puntaje-usuaria">
+        <h2>Yo</h2>
+        <p>0</p>
+      </div>
+
+      <div class="puntaje-computadora">
+        <h2>Computadora</h2>
+        <p>0</p>
+      </div>
+    </div>
+
+    <div class="tablero">
+      <h2 class="resultado">Elegí una opción</h2>
+
+      <div class="manos">
+        <img class="mano-usuaria" src="./assets/piedra.png" alt="Opción elegida por usuario" />
+        <img class="mano-computadora" src="./assets/piedra_computadora.png" alt="Opción elegida por computadora" />
+      </div>
+
+      <div class="opciones">
+        <button class="piedra">
+          <img class="mano-usuaria" src="./assets/piedra.png" alt="Elegir piedra" />
+        </button>
+        <button class="papel">
+          <img class="mano-usuaria" src="./assets/papel.png" alt="Elegir papel" />
+        </button>
+        <button class="tijera">
+          <img class="mano-usuaria" src="./assets/tijera.png" alt="Elegir tijera" />
+        </button>
+      </div>
+    </div>
+    <footer class="centrado">
+      <small>
+        <strong>"Hecho por Silvia Miño con mucho ❤️ y mucho 🧉 "</strong>
+      </small>
+    </footer>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
